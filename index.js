@@ -49,7 +49,7 @@ const questions = [
     {
         type: 'input',
         name: "contributions",
-        message: "Enter any contributors on this project?",
+        message: "Enter any contributor's Github username on this project?",
     },
     {
         type: 'input',

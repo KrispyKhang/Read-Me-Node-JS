@@ -50,6 +50,12 @@ ${data.usage}
 *Name: ${data.name}
 *Email: ${data.email}
 *Github: (https://github.com/${data.creator}/)
+## Contributors
+* Github Users: ${data.contributions}
+## Testing
+${data.tests}
+## Licenses
+${data.license}
 `;
 }
 
