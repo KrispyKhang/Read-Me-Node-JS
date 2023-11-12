@@ -29,7 +29,27 @@ Licensed under the ${license} license.`;
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-
+by ${data.name}
+${renderLicenseBadge(data.license)}
+## Table of Contents
+* [Description](#description)
+* [Requirements](#require)
+* [Installations]](#installations)
+* [Usage](#usage)
+* [Contributions](#contributions)
+* [Tests](#tests)
+* [License](#projectLicense)
+${renderLicenseLink(data.license)}
+## Description
+${data.description}
+## Requirements
+${data.require}
+## Languages and Technologies Used
+${data.usage}
+## Contact Me
+*Name: ${data.name}
+*Email: ${data.email}
+*Github: (https://github.com/${data.creator}/)
 `;
 }
 

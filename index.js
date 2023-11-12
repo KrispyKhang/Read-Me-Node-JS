@@ -8,32 +8,52 @@ const generateMarkdown = require("./generateMarkdown");
 const questions = [
     {
         type: 'input',
-        name: "projectTitle",
-        message: "What is your prjoect title?",
+        name: "name",
+        message: "What is your name?",
     },
     {
         type: 'input',
-        name: "projectDescription",
+        name: "creator",
+        message: "What is your Github username?",
+    },
+    {
+        type: 'input',
+        name: "email",
+        message: "What is your email?",
+    },
+    {
+        type: 'input',
+        name: "title",
+        message: "What is your project title?",
+    },
+    {
+        type: 'input',
+        name: "description",
         message: "Name your project description",
     },
     {
         type: 'input',
-        name: "projectInstalltionInstructions",
+        name: "require",
+        message: "What are the project requirements?",
+    },
+    {
+        type: 'input',
+        name: "installations",
         message: "What are the installations for this project?",
     },
     {
         type: 'input',
-        name: "projectUsage",
-        message: "What is the use case of this project?",
+        name: "usage",
+        message: "What are the languages and technologies used in this project?",
     },
     {
         type: 'input',
-        name: "projectContributions",
-        message: "Enter the contribution instructions?",
+        name: "contributions",
+        message: "Enter any contributors on this project?",
     },
     {
         type: 'input',
-        name: "projecTests",
+        name: "tests",
         message: "Methods you use to test your project.",
     },
     {
@@ -45,11 +65,7 @@ const questions = [
             "MOZILLA",
             "IBM",
             "NONE",
-        ]
-    },
-    {
-        
-    }
+        ]}
 
 
 ];
