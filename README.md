@@ -1,7 +1,7 @@
 ## 06 Server API Weather Challenge
 
-* [Github Repository](https://github.com/KrispyKhang/API-Weather-App)
-* [Deployed Github](https://krispykhang.github.io/API-Weather-App/)
+* [Github Repository](https://github.com/KrispyKhang/Read-Me-Node-JS)
+* [Deployed Github](https://krispykhang.github.io/Read-Me-Node-JS/)
 
 
 
