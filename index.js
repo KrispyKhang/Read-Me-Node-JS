@@ -66,8 +66,6 @@ const questions = [
             "IBM",
             "NONE",
         ]}
-
-
 ];
 
 
