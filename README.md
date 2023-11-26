@@ -48,8 +48,7 @@ THEN I am taken to the corresponding section of the README
 
 ![](./Assets/Sample1.gif)
 ![](./Assets/Sample2.gif)
-![](./Assets/Sample3.gif)
-![](./Assets/Sample4.gif)
+
 
 ## BAM! ReadMe Generated through Node.js!
 
